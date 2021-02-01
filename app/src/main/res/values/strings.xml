@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AsyncTaskCounter</string>
+    <string name="start">Start</string>
+    <string name="counter2">Counter2</string>
+    <string name="counter1">Counter1</string>
+</resources>
