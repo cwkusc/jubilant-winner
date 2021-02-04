@@ -16,7 +16,7 @@ public class MyAsyncTask extends AsyncTask <String, Integer, Boolean>{
 
     @Override
     protected Boolean doInBackground(String... strings){
-        System.out.println("#doInBackground strings: " + strings[0]);
+        System.out.println("#doInBackground strings: " );
         for(int i=0; i < 10000; i++)
         {
             publishProgress(i);
