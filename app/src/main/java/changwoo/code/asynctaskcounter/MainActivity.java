@@ -31,7 +31,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 MyAsyncTask asyncTask1 = new MyAsyncTask((TextView)tv_counter1);
-                MyAsyncTask asyncTask2 = new MyAsyncTask((TextView)tv_counter2);
+
+               // asyncTask2.execute();
             }
         });
 
