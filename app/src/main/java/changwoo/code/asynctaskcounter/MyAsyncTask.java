@@ -17,13 +17,8 @@ public class MyAsyncTask extends AsyncTask <String, Integer, Boolean>{
     @Override
     protected Boolean doInBackground(String... strings){
         System.out.println("#doInBackground strings: " + strings[0]);
-        for(int i=0; i < 60; i++)
+        for(int i=0; i < 10000; i++)
         {
-            try {
-                sleep(1000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
             publishProgress(i);
         }
         return true;
